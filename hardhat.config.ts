@@ -33,7 +33,7 @@ const config: HardhatUserConfig = {
     hardhat: {
       forking: {
         url: process.env.WEB3_INFURA_PROJECT_ID || "",
-        blockNumber: 13475333,
+        // blockNumber: 13475333,
       },
     },
   },
